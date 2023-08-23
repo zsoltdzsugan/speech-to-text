@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.container-fluid {
+    width: 80%;
+}
+
+#output {
+    border: 2.5px solid rgb(76, 76, 224);
+    border-radius: 10px;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+#startButton {
+    background-color: rgb(76, 76, 224);
+}
