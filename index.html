@@ -11,15 +11,21 @@
     <div class="container-fluid text-center">
         <div class="row mt-5">
             <div class="col-sm-6">
-                <h2>Hangról szövegre alakítás</h2>
+                <h2>Beszéd szöveggé alakítás</h2>
             </div>
             <div class="col-sm-6">
-                <button type="button" id="startButton" class="btn btn-primary btn-lg">Hangfelismerés kezdése</button>
+                <button type="button" id="startButton" class="btn btn-lg">Beszédfelismerés kezdése</button>
             </div>
+            <div class="circle hidden"></div>
         </div>
         <div class="row mt-5">
-            <div class="col-sm-12">
+            <div class="col-sm-8 container">
+                <div class="output-title">Beszélgetés</div>
                 <div id="output"></div>
+            </div>
+            <div class="col-sm-4 container">
+                <div class="last-output-title">Legutolsó beszélgetés</div>
+                <div class="last-output"></div>
             </div>
         </div>
 
